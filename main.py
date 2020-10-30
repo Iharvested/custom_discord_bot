@@ -8,7 +8,10 @@ from discord.ext.commands import Bot
 bot = commands.Bot(command_prefix="!")
 
 
-
+@bot.event
+async def on_ready():
+  bot.load_extension('cogs.Fun')
+  bot.load_extension('cogs.Mod')
 
 
 keep_alive()

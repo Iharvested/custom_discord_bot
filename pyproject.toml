@@ -7,6 +7,10 @@ authors = ["repl.it user <replituser@example.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 webserver = "^0.10.3"
+discord = "^1.0.1"
+flask = "^1.1.2"
+praw = "^7.1.0"
+utils = "^1.0.1"
 
 [tool.poetry.dev-dependencies]
 
